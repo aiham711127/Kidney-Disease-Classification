@@ -46,3 +46,95 @@ x==========x]
 [2025-10-24 00:57:25,993: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2025-10-24 01:25:04,501: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-24 01:25:04,508: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-24 01:25:04,511: INFO: common: created directory at: artifacts]
+[2025-10-24 01:25:04,513: INFO: common: created directory at: artifacts\training]
+[2025-10-24 19:42:14,274: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-24 19:42:14,280: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-24 19:42:14,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-24 19:42:14,284: INFO: common: created directory at: artifacts]
+[2025-10-24 19:42:14,285: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-24 19:42:14,286: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-24 19:45:28,542: ERROR: main: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))]
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\response.py", line 748, in _error_catcher
+    yield
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\response.py", line 873, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\response.py", line 856, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 455, in read
+    n = self.readinto(b)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 499, in readinto
+    n = self.fp.readinto(b)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python38\lib\socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python38\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\response.py", line 1060, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\response.py", line 949, in read
+    data = self._raw_read(amt)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\response.py", line 902, in _raw_read
+    self._fp.close()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\response.py", line 775, in _error_catcher
+    raise ProtocolError(f"Connection broken: {e!r}", e) from e
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/DELL/Desktop/kidne_Classification-Project/main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\dell\desktop\kidne_classification-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\dell\desktop\kidne_classification-project\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "c:\users\dell\desktop\kidne_classification-project\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-10-24 20:04:05,423: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-24 20:04:05,445: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-24 20:04:05,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-24 20:04:05,472: INFO: common: created directory at: artifacts]
+[2025-10-24 20:04:05,473: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-24 20:04:05,474: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-24 20:14:35,901: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-24 20:14:38,320: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-24 20:14:38,330: INFO: main: *******************]
+[2025-10-24 20:14:38,330: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-24 20:14:38,358: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-24 20:14:38,369: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-24 20:14:38,384: INFO: common: created directory at: artifacts]
+[2025-10-24 20:14:38,388: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-24 20:14:40,172: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-24 20:14:40,644: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-24 20:14:40,644: INFO: main: *******************]
+[2025-10-24 20:14:40,644: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-24 20:14:40,644: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-24 20:14:40,649: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-24 20:14:40,649: INFO: common: created directory at: artifacts]
+[2025-10-24 20:14:40,654: INFO: common: created directory at: artifacts\training]
+[2025-10-24 20:20:36,633: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]

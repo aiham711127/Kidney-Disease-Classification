@@ -47,3 +47,30 @@ Now,
 open up you local host and port
 ```
 
+
+## MLflow
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+MLFLOW_TRACKING_URI = https://dagshub.com/aiham711127/Kidney-Disease-Classification.mlflow
+MLFLOW_TRACKING_USERNAME= aiham711127
+MLFLOW_TRACKING_PASSWORD= "0bb7a4c215f49f42a9bd9ed782068c4a19e01e0f"  # 🔑 Token الحقيقي هنا
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/aiham711127/Kidney-Disease-Classification.mlflow
+
+export MLFLOW_TRACKING_USERNAME=aiham711127 
+
+export MLFLOW_TRACKING_PASSWORD=0bb7a4c215f49f42a9bd9ed782068c4a19e01e0f
+
+```

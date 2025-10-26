@@ -1,0 +1,4 @@
+Model Results:
+Accuracy: 0.5180
+Loss: 5.5353
+Classes: 2

@@ -138,3 +138,559 @@ x==========x]
 [2025-10-24 20:20:36,633: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-10-25 00:47:19,534: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 00:47:19,544: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 00:47:19,548: INFO: common: created directory at: artifacts]
+[2025-10-25 00:49:27,993: INFO: common: json file saved at: scores.json]
+[2025-10-25 00:49:33,353: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 00:49:34,647: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmpoex3w8hl\model\data\model\assets]
+[2025-10-25 00:57:01,679: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/29e9fd6e0c734933af05544a2e206a3e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:00:03,899: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=3, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/29e9fd6e0c734933af05544a2e206a3e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:02:06,810: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=2, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/29e9fd6e0c734933af05544a2e206a3e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:03:32,987: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=1, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/29e9fd6e0c734933af05544a2e206a3e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:07:06,304: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=0, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/29e9fd6e0c734933af05544a2e206a3e/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:15:39,263: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 01:15:39,273: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 01:15:39,273: INFO: common: created directory at: artifacts]
+[2025-10-25 01:17:46,455: INFO: common: json file saved at: scores.json]
+[2025-10-25 01:17:51,409: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 01:17:52,562: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmp43_epm6o\model\data\model\assets]
+[2025-10-25 01:19:42,632: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/2684cc51d810418bbb1ecc88ea59244b/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:21:42,453: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=3, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/2684cc51d810418bbb1ecc88ea59244b/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:22:14,504: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=2, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/2684cc51d810418bbb1ecc88ea59244b/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:23:45,101: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=1, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/2684cc51d810418bbb1ecc88ea59244b/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:25:22,890: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=0, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/2684cc51d810418bbb1ecc88ea59244b/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:27:28,987: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 01:27:28,995: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 01:27:28,998: INFO: common: created directory at: artifacts]
+[2025-10-25 01:29:43,459: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 01:29:44,654: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmprzn5o8nm\model\data\model\assets]
+[2025-10-25 01:30:43,922: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/0268082f7ba24b1f8f36935279bd5c71/artifacts/model/data/model/saved_model.pb]
+[2025-10-25 01:32:11,264: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/0268082f7ba24b1f8f36935279bd5c71/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:35:15,556: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=3, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/0268082f7ba24b1f8f36935279bd5c71/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:36:27,902: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=2, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/0268082f7ba24b1f8f36935279bd5c71/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:36:49,443: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=2, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/0268082f7ba24b1f8f36935279bd5c71/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:37:42,008: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=1, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/0268082f7ba24b1f8f36935279bd5c71/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 01:54:37,846: WARNING: connectionpool: Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027A5636CD90>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 01:54:41,878: WARNING: connectionpool: Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027A55FACC70>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 01:54:49,902: WARNING: connectionpool: Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027A55FAC940>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 01:55:05,940: WARNING: connectionpool: Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027A55FAC400>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 01:55:39,037: WARNING: connectionpool: Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027A55FAC5B0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 02:05:49,828: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 02:05:49,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 02:05:49,838: INFO: common: created directory at: artifacts]
+[2025-10-25 02:08:02,767: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 02:08:03,921: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmp8ckn8cc5\model\data\model\assets]
+[2025-10-25 02:14:07,125: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/1da5cd05de7342f990ebfe5a95379aa5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 02:15:20,420: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=3, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/1da5cd05de7342f990ebfe5a95379aa5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 02:17:53,333: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=2, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/1da5cd05de7342f990ebfe5a95379aa5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 02:19:09,275: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=1, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/1da5cd05de7342f990ebfe5a95379aa5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 02:19:59,777: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=0, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/1da5cd05de7342f990ebfe5a95379aa5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 02:44:28,418: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 02:44:28,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 02:44:28,431: INFO: common: created directory at: artifacts]
+[2025-10-25 02:46:55,515: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 02:46:56,955: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmpq0k4_7li\model\data\model\assets]
+[2025-10-25 02:49:22,503: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/ad38406cd28e4eb9b913bb24cff56341/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 02:51:27,324: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=3, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/ad38406cd28e4eb9b913bb24cff56341/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 02:57:39,426: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=2, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/ad38406cd28e4eb9b913bb24cff56341/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 03:09:22,369: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=1, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/ad38406cd28e4eb9b913bb24cff56341/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 03:11:07,406: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=0, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/81d8ae3589ce4f8c9a61cc436440aa95/ad38406cd28e4eb9b913bb24cff56341/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-10-25 03:16:42,296: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 03:16:43,863: INFO: builder_impl: Assets written to: artifacts/local_model\assets]
+[2025-10-25 03:28:40,931: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 03:28:40,938: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 03:28:40,944: INFO: common: created directory at: artifacts]
+[2025-10-25 03:30:59,366: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 03:31:00,599: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmpjd091ro3\model\data\model\assets]
+[2025-10-25 03:43:17,204: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 03:43:17,210: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 03:43:17,214: INFO: common: created directory at: artifacts]
+[2025-10-25 16:53:39,079: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 16:53:39,109: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 16:53:39,113: INFO: common: created directory at: artifacts]
+[2025-10-25 16:55:53,167: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 16:55:54,445: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmprz324cjs\model\data\model\assets]
+[2025-10-25 17:47:38,659: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 17:47:38,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 17:47:38,669: INFO: common: created directory at: artifacts]
+[2025-10-25 17:49:44,278: INFO: common: json file saved at: scores.json]
+[2025-10-25 17:49:51,469: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 17:49:53,382: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmp_q15olxk\model\data\model\assets]
+[2025-10-25 19:01:50,814: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 19:01:50,823: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 19:01:50,826: INFO: common: created directory at: artifacts]
+[2025-10-25 19:03:59,165: INFO: common: json file saved at: scores.json]
+[2025-10-25 19:03:59,671: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 19:04:03,684: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 19:04:11,706: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 19:04:27,731: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 19:04:59,765: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)'))': /aiham711127/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-10-25 19:12:17,490: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 19:12:17,498: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 19:12:17,502: INFO: common: created directory at: artifacts]
+[2025-10-25 19:14:33,432: INFO: common: json file saved at: scores.json]
+[2025-10-25 19:14:38,838: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 19:14:40,859: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmpvxrqsd3p\model\data\model\assets]
+[2025-10-25 19:45:05,082: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 19:45:05,089: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 19:45:05,094: INFO: common: created directory at: artifacts]
+[2025-10-25 19:47:28,362: INFO: common: json file saved at: scores.json]
+[2025-10-25 19:47:33,523: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-10-25 19:47:34,864: INFO: builder_impl: Assets written to: C:\Users\DELL\AppData\Local\Temp\tmpbc5ezvp2\model\data\model\assets]
+[2025-10-25 20:28:06,707: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-25 20:28:06,709: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 20:28:06,714: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 20:28:06,714: INFO: common: created directory at: artifacts]
+[2025-10-25 20:28:06,714: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-25 20:28:06,714: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-25 20:30:38,089: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-25 20:30:39,285: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-25 20:30:39,290: INFO: main: *******************]
+[2025-10-25 20:30:39,290: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-25 20:30:39,295: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 20:30:39,302: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 20:30:39,305: INFO: common: created directory at: artifacts]
+[2025-10-25 20:30:39,306: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-25 20:30:40,314: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 20:30:41,010: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-25 20:30:41,010: INFO: main: *******************]
+[2025-10-25 20:30:41,010: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-25 20:30:41,023: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 20:30:41,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 20:30:41,031: INFO: common: created directory at: artifacts]
+[2025-10-25 20:30:41,034: INFO: common: created directory at: artifacts\training]
+[2025-10-25 20:42:25,335: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-25 20:42:25,335: INFO: main: *******************]
+[2025-10-25 20:42:25,335: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-25 20:42:25,340: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 20:42:25,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 20:42:25,345: INFO: common: created directory at: artifacts]
+[2025-10-25 20:44:19,961: INFO: common: json file saved at: scores.json]
+[2025-10-25 20:44:19,966: INFO: common: json file saved at: scores.json]
+[2025-10-25 20:44:19,968: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-25 20:52:59,795: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-25 20:52:59,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 20:52:59,808: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 20:52:59,809: INFO: common: created directory at: artifacts]
+[2025-10-25 20:52:59,810: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-25 20:52:59,811: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-25 20:56:02,472: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-25 20:56:03,782: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-25 20:56:03,782: INFO: main: *******************]
+[2025-10-25 20:56:03,782: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-25 20:56:03,787: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 20:56:03,798: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 20:56:03,802: INFO: common: created directory at: artifacts]
+[2025-10-25 20:56:03,802: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-25 20:56:05,229: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 20:56:05,661: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-25 20:56:05,661: INFO: main: *******************]
+[2025-10-25 20:56:05,661: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-25 20:56:05,668: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 20:56:05,671: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 20:56:05,674: INFO: common: created directory at: artifacts]
+[2025-10-25 20:56:05,677: INFO: common: created directory at: artifacts\training]
+[2025-10-25 21:02:02,922: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-25 21:02:02,922: INFO: main: *******************]
+[2025-10-25 21:02:02,923: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-25 21:02:02,930: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 21:02:02,935: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 21:02:02,937: INFO: common: created directory at: artifacts]
+[2025-10-25 21:03:56,354: INFO: common: json file saved at: scores.json]
+[2025-10-25 21:03:56,357: INFO: common: json file saved at: scores.json]
+[2025-10-25 21:03:56,357: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-25 21:14:15,187: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-25 21:14:15,192: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 21:14:15,201: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 21:14:15,201: INFO: common: created directory at: artifacts]
+[2025-10-25 21:14:15,205: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-25 21:14:15,206: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-25 21:25:53,593: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-25 21:25:54,617: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-25 21:25:54,627: INFO: main: *******************]
+[2025-10-25 21:25:54,636: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-25 21:25:54,655: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 21:25:54,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 21:25:54,683: INFO: common: created directory at: artifacts]
+[2025-10-25 21:25:54,684: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-25 21:25:56,007: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 21:25:56,478: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-25 21:25:56,478: INFO: main: *******************]
+[2025-10-25 21:25:56,478: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-25 21:25:56,483: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 21:25:56,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 21:25:56,491: INFO: common: created directory at: artifacts]
+[2025-10-25 21:25:56,492: INFO: common: created directory at: artifacts\training]
+[2025-10-25 21:31:51,380: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-25 21:31:51,380: INFO: main: *******************]
+[2025-10-25 21:31:51,380: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-25 21:31:51,388: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-25 21:31:51,392: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-25 21:31:51,392: INFO: common: created directory at: artifacts]
+[2025-10-25 21:33:45,564: INFO: common: json file saved at: scores.json]
+[2025-10-25 21:33:45,569: INFO: common: json file saved at: scores.json]
+[2025-10-25 21:33:45,569: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-26 17:45:27,636: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-26 17:45:27,659: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 17:45:27,664: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 17:45:27,665: INFO: common: created directory at: artifacts]
+[2025-10-26 17:45:27,665: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-26 17:45:27,666: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 17:47:18,234: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 17:47:19,812: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-26 17:47:19,817: INFO: main: *******************]
+[2025-10-26 17:47:19,817: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-26 17:47:19,827: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 17:47:19,898: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 17:47:19,914: INFO: common: created directory at: artifacts]
+[2025-10-26 17:47:19,933: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-26 17:47:21,332: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 17:47:22,058: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-26 17:47:22,058: INFO: main: *******************]
+[2025-10-26 17:47:22,058: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-26 17:47:22,063: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 17:47:22,071: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 17:47:22,072: INFO: common: created directory at: artifacts]
+[2025-10-26 17:47:22,073: INFO: common: created directory at: artifacts\training]
+[2025-10-26 17:53:38,089: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-26 17:53:38,103: INFO: main: *******************]
+[2025-10-26 17:53:38,130: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-26 17:53:38,152: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 17:53:38,165: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 17:53:38,169: INFO: common: created directory at: artifacts]
+[2025-10-26 17:55:51,472: INFO: common: json file saved at: scores.json]
+[2025-10-26 17:55:51,474: INFO: common: json file saved at: scores.json]
+[2025-10-26 17:55:51,475: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-26 18:26:27,572: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-26 18:26:27,577: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 18:26:27,585: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 18:26:27,586: INFO: common: created directory at: artifacts]
+[2025-10-26 18:26:27,589: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-26 18:26:27,590: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 18:28:10,744: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 18:28:12,248: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-26 18:28:12,251: INFO: main: *******************]
+[2025-10-26 18:28:12,251: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-26 18:28:12,253: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 18:28:12,262: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 18:28:12,264: INFO: common: created directory at: artifacts]
+[2025-10-26 18:28:12,267: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-26 18:28:13,766: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 18:28:14,163: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-26 18:28:14,164: INFO: main: *******************]
+[2025-10-26 18:28:14,164: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-26 18:28:14,168: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 18:28:14,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 18:28:14,174: INFO: common: created directory at: artifacts]
+[2025-10-26 18:28:14,175: INFO: common: created directory at: artifacts\training]
+[2025-10-26 18:34:22,613: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-26 18:34:22,615: INFO: main: *******************]
+[2025-10-26 18:34:22,615: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-26 18:34:22,623: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 18:34:22,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 18:34:22,632: INFO: common: created directory at: artifacts]
+[2025-10-26 18:36:18,831: INFO: common: json file saved at: scores.json]
+[2025-10-26 18:36:18,836: INFO: common: json file saved at: scores.json]
+[2025-10-26 18:36:18,838: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-26 18:54:16,790: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-26 18:54:16,792: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 18:54:16,797: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 18:54:16,797: INFO: common: created directory at: artifacts]
+[2025-10-26 18:54:16,797: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-26 18:54:16,797: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 18:56:22,463: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 18:56:24,061: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-26 18:56:24,076: INFO: main: *******************]
+[2025-10-26 18:56:24,135: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-26 18:56:24,163: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 18:56:24,185: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 18:56:24,199: INFO: common: created directory at: artifacts]
+[2025-10-26 18:56:24,230: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-26 18:56:25,521: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 18:56:26,043: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-26 18:56:26,043: INFO: main: *******************]
+[2025-10-26 18:56:26,043: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-26 18:56:26,048: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 18:56:26,052: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 18:56:26,055: INFO: common: created directory at: artifacts]
+[2025-10-26 18:56:26,055: INFO: common: created directory at: artifacts\training]
+[2025-10-26 19:02:21,699: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-26 19:02:21,699: INFO: main: *******************]
+[2025-10-26 19:02:21,704: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-26 19:02:21,709: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 19:02:21,716: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 19:02:21,717: INFO: common: created directory at: artifacts]
+[2025-10-26 19:04:17,976: INFO: common: json file saved at: scores.json]
+[2025-10-26 19:04:17,980: INFO: common: json file saved at: scores.json]
+[2025-10-26 19:04:17,981: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-26 19:24:55,365: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-26 19:24:55,370: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 19:24:55,377: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 19:24:55,378: INFO: common: created directory at: artifacts]
+[2025-10-26 19:24:55,379: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-26 19:24:55,380: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 20:16:12,770: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 20:16:13,986: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-26 20:16:13,990: INFO: main: *******************]
+[2025-10-26 20:16:13,991: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-26 20:16:14,001: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 20:16:14,004: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 20:16:14,010: INFO: common: created directory at: artifacts]
+[2025-10-26 20:16:14,020: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-26 20:16:15,486: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 20:16:16,208: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-26 20:16:16,208: INFO: main: *******************]
+[2025-10-26 20:16:16,208: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-26 20:16:16,208: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 20:16:16,213: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 20:16:16,213: INFO: common: created directory at: artifacts]
+[2025-10-26 20:16:16,213: INFO: common: created directory at: artifacts\training]
+[2025-10-26 20:22:55,918: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-26 20:22:55,919: INFO: main: *******************]
+[2025-10-26 20:22:55,919: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-26 20:22:55,923: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 20:22:55,928: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 20:22:55,930: INFO: common: created directory at: artifacts]
+[2025-10-26 20:24:49,933: INFO: common: json file saved at: scores.json]
+[2025-10-26 20:24:49,938: INFO: common: json file saved at: scores.json]
+[2025-10-26 20:24:49,940: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-26 22:08:10,720: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-26 22:08:10,725: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 22:08:10,732: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 22:08:10,735: INFO: common: created directory at: artifacts]
+[2025-10-26 22:08:10,735: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-26 22:08:10,737: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 22:16:40,150: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 22:16:41,363: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-26 22:16:41,363: INFO: main: *******************]
+[2025-10-26 22:16:41,363: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-26 22:16:41,368: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 22:16:41,373: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 22:16:41,373: INFO: common: created directory at: artifacts]
+[2025-10-26 22:16:41,373: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-26 22:16:42,792: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 22:16:43,190: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-26 22:16:43,190: INFO: main: *******************]
+[2025-10-26 22:16:43,190: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-26 22:16:43,195: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 22:16:43,201: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 22:16:43,202: INFO: common: created directory at: artifacts]
+[2025-10-26 22:16:43,203: INFO: common: created directory at: artifacts\training]
+[2025-10-26 22:29:05,826: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-26 22:29:05,826: INFO: main: *******************]
+[2025-10-26 22:29:05,826: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-26 22:29:05,834: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 22:29:05,841: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 22:29:05,843: INFO: common: created directory at: artifacts]
+[2025-10-26 22:31:05,444: INFO: common: json file saved at: scores.json]
+[2025-10-26 22:31:05,445: INFO: common: json file saved at: scores.json]
+[2025-10-26 22:31:05,446: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-26 22:47:29,612: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-26 22:47:29,626: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 22:47:29,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 22:47:29,631: INFO: common: created directory at: artifacts]
+[2025-10-26 22:47:29,632: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-26 22:47:29,632: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 22:47:29,655: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FAB274DC40>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))]
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python38\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001FAB274DC40>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FAB274DC40>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\dell\desktop\kidne_classification-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\dell\desktop\kidne_classification-project\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "c:\users\dell\desktop\kidne_classification-project\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\Desktop\kidne_Classification-Project\venv\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FAB274DC40>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+[2025-10-26 22:49:15,143: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-26 22:49:15,148: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 22:49:15,153: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 22:49:15,153: INFO: common: created directory at: artifacts]
+[2025-10-26 22:49:15,157: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-26 22:49:15,158: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 22:58:09,004: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 22:58:10,702: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-26 22:58:10,702: INFO: main: *******************]
+[2025-10-26 22:58:10,707: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-26 22:58:10,715: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 22:58:10,724: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 22:58:10,733: INFO: common: created directory at: artifacts]
+[2025-10-26 22:58:10,736: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-26 22:58:12,029: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 22:58:12,413: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-26 22:58:12,414: INFO: main: *******************]
+[2025-10-26 22:58:12,414: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-26 22:58:12,419: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 22:58:12,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 22:58:12,426: INFO: common: created directory at: artifacts]
+[2025-10-26 22:58:12,428: INFO: common: created directory at: artifacts\training]
+[2025-10-26 23:17:48,755: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-26 23:17:48,755: INFO: main: *******************]
+[2025-10-26 23:17:48,755: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-26 23:17:48,763: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 23:17:48,765: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 23:17:48,771: INFO: common: created directory at: artifacts]
+[2025-10-26 23:19:43,549: INFO: common: json file saved at: scores.json]
+[2025-10-26 23:19:43,549: INFO: common: json file saved at: scores.json]
+[2025-10-26 23:19:43,549: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-26 23:25:34,507: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-26 23:25:34,507: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 23:25:34,512: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 23:25:34,512: INFO: common: created directory at: artifacts]
+[2025-10-26 23:25:34,517: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-26 23:25:34,518: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 23:34:30,433: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-26 23:34:31,801: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-26 23:34:31,801: INFO: main: *******************]
+[2025-10-26 23:34:31,801: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-26 23:34:31,811: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 23:34:31,873: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 23:34:31,910: INFO: common: created directory at: artifacts]
+[2025-10-26 23:34:31,952: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-26 23:34:33,138: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 23:34:33,765: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-10-26 23:34:33,765: INFO: main: *******************]
+[2025-10-26 23:34:33,765: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-10-26 23:34:33,775: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 23:34:33,781: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 23:34:33,783: INFO: common: created directory at: artifacts]
+[2025-10-26 23:34:33,784: INFO: common: created directory at: artifacts\training]
+[2025-10-26 23:54:06,849: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-26 23:54:06,849: INFO: main: *******************]
+[2025-10-26 23:54:06,849: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-26 23:54:06,859: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-26 23:54:06,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-26 23:54:06,868: INFO: common: created directory at: artifacts]
+[2025-10-26 23:56:02,232: INFO: common: json file saved at: scores.json]
+[2025-10-26 23:56:02,234: INFO: common: json file saved at: scores.json]
+[2025-10-26 23:56:02,236: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

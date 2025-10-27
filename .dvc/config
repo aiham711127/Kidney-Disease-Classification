@@ -1,4 +1,6 @@
 [core]
     remote = origin
 ['remote "origin"']
-    url = https://dagshub.com/aiham711127/kidne_Classification-Project.dvc
+    url = ssh://git@dagshub.com/aiham711127/kidne_Classification-Project.dvc
+    user = aiham711127
+    password = 0bb7a4c215f49f42a9bd9ed782068c4a19e01e0f

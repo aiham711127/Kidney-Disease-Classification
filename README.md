@@ -61,7 +61,7 @@ open up you local host and port
 [dagshub](https://dagshub.com/)
 MLFLOW_TRACKING_URI = https://dagshub.com/aiham711127/Kidney-Disease-Classification.mlflow
 MLFLOW_TRACKING_USERNAME= aiham711127
-MLFLOW_TRACKING_PASSWORD= "0bb7a4c215f49f42a9bd9ed782068c4a19e01e0f"  # 🔑 Token الحقيقي هنا
+MLFLOW_TRACKING_PASSWORD= ""  # 🔑 Token الحقيقي هنا
 
 Run this to export as env variables:
 
